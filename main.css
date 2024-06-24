@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    background-color: #717171;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.main {
+    display: flex;
+    align-items: center;
+}
+.pages {
+    display: flex;
+}
+
+.pages div {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pages div:hover {
+    background-color: #ff7e50;
+    transition: 300ms;
+}
+
+.pages div a {
+    text-decoration: none;
+    color: black;
+}
+.Header {
+    width: 80%;
+    margin: auto;
+    background-color: #ff7e50;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #3f3841;
+}
+
+footer {
+    background-color: #717171;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.accounts {
+    display: flex;
+    justify-content: center;
+}
+
+.accounts div {
+    margin: 5px;
+}
+
+.accounts a{
+    color: black;
+    text-decoration: none;
+}
+
+.accounts a:hover {
+    color: #ff7e50;
+    transition: 300ms;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+}
